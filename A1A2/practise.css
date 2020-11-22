@@ -1,0 +1,134 @@
+*
+{
+    font-family: 'Raleway', sans-serif; 
+}
+
+.logo
+{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;   
+    border-radius:100%; 
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;     
+}
+
+body 
+{ 
+     background:  #000000 url(images/pic1.jpg)  no-repeat fixed center; /* Shorthand Property */
+
+    /* background-color: #000000;
+    background-image: url(images/pic1.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+
+    /* background-size: cover; */
+    background-size: 100% 200%; 
+    background-clip: border-box; 
+    
+} 
+
+#para1, #para2, #para3, #para4
+{
+    /* background-color: white; */
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 130%;
+    padding: 25px;
+    margin: 15px;
+    line-height: 160%;
+    text-indent: 60px; 
+}
+
+.center
+{
+    color: #ffffff; /* ID has more priority, when you use same declaration in ID and class */
+    text-align: center;
+}   
+
+.bdesign
+{
+    background-color: #000000;
+    border-radius: 18px;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 125%; 
+    margin-left:auto;
+    margin-right: auto;   
+}
+
+.bdesign:hover
+{
+    background-color: transparent;
+    color: rgb(97, 252, 7);
+}
+
+.table,th,td
+{
+    font-size: 130%;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+.fimage
+{
+    width: 200px; 
+    height: 200px;
+}
+
+.ffloat1
+{
+    float: left; 
+    margin: 50px 25px 25px 50px; 
+    padding: 25px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 100px;
+}
+
+.ffloat2
+{
+    float: right; 
+    margin: 50px 50px 25px 25px; 
+    padding: 25px;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 500px; 
+} 
+
+.address1
+{
+    padding:20px;
+    margin: 20px;
+    display: auto;
+}
+
+/* .container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio 
+  } 
+
+ .responsive-iframe
+{ 
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  border: none; 
+} */ 

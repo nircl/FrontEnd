@@ -1,0 +1,94 @@
+// ----------Header------------------
+.mainff 
+{
+    padding: 15px 0px;      
+}
+
+// ----------Section------------------
+.mainBg
+{
+    background-color: $myMBackground;  
+}
+
+// ----------Single Frame-------------
+.frame 
+{
+    margin: 80px 15px 10px 15px; 
+    background-color: $myDBackground;
+    max-width: 320px;
+    height: 525px;
+    display: inline-block;  
+    box-shadow: 0px 8px 16px 0px grey;    
+} 
+
+// ----------Image------------------
+.snap
+{
+    margin-top: -10%;
+    width: 300px;
+    height: 300px; 
+    box-shadow: 0px 8px 16px 0px grey; 
+}
+
+// ----------Image Layer------------------
+.bg
+{
+    position: relative;
+}
+
+.fg 
+{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    color: $name;
+} 
+
+// ----------Designation------------------
+.subff
+{
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.desig1
+{
+    color: $desigRed;
+}
+.desig2
+{
+    color: $desigGreen;
+}
+.desig3
+{
+    color: $desigBlue;
+}
+
+// ----------Description------------------
+.desigDis
+{
+    padding: 0px 20px;
+    font-family: 'Roboto', sans-serif; 
+    width: fit-content;
+    font-weight: 400;
+}
+
+// ----------ICons------------------
+i 
+{
+    padding: 15px;
+}
+.icon1
+{
+    color: $iconTwitter;
+}
+.icon2
+{
+    color: $iconDribbble;
+}
+.icon3
+{
+    color: $iconInstagram;
+}
+// ------------------------------------ 

@@ -1,0 +1,117 @@
+.bimg
+{ 
+    background:  #9C00F0 url(Pic3.jpg) no-repeat fixed center; /*Shorthand Property*/
+    background-size: cover;    
+    background-position: center;
+}  
+
+*
+{
+    font-family: 'Cinzel', serif;
+}
+
+.logo
+{
+    width: 70px;
+    height: 90px;
+    padding: 10px; 
+    margin: 10px;
+}
+
+nav 
+{
+    justify-content: center;
+    width: auto; 
+    height: 90px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px; 
+    display: inline-block;   
+} 
+
+  ul 
+  {
+      list-style-type: none;
+      padding: 0px;
+      display: inline-block;  
+  }
+
+    li  
+    {
+        float: left;
+        padding: 10px 25px;
+    }
+
+    li a
+    {
+        text-decoration: none;
+        color: yellow;
+        opacity: 0.7;
+    }
+ 
+        li a:hover:not(.active)
+        {
+            opacity: 1;
+        }   
+        
+
+
+.column
+{
+    float: left;
+    width: 50%;
+}
+
+.row:after 
+{
+    content: ""; /* to Clear floats after the columns */
+    display: table;
+    clear: both;
+}
+    
+@media screen and (max-width: 600px) 
+{
+    .column 
+    {
+        width: 100%;
+    }
+}
+
+.sec1
+{
+    float: left;
+    font-size: 25px;
+    line-height: 40px;  
+    text-align: left;
+    color: white;
+    padding: 20px;
+    margin: 100px 30px 100px 30px;   
+}  
+
+.art1
+{
+    color: white;
+    padding: 20px;
+    margin: 10px 30px 10px 30px;  
+}
+
+.head1, .foot1, .butticon
+{
+    color: yellow;
+}
+
+.center
+{
+    text-align: center;    
+}
+
+.butticon
+{
+    text-decoration: none;
+    padding: 25px;
+}
+
+.butticon:hover:not(.active)
+{
+    opacity: 0.6;
+}  

@@ -1,0 +1,73 @@
+
+header
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+header
+{
+    color: rgb(255, 174, 0);
+    border: 50px, 30px, 30px, 25px;
+    padding: 20px;
+    font-size: 80px;
+    left: 0%; 
+}
+
+body
+{
+    background-image: url(images/pic1a.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+div 
+{
+    color: #ffa602;
+    font-family: 'Quattrocento', serif; 
+    font-size: 40px;
+    line-height: 55px;
+    word-spacing: 10px;
+    letter-spacing: 6px;
+    margin-top: 100px;
+    padding: 10px;
+    vertical-align: middle;
+}
+ 
+img
+{
+    width: 80px;
+    height: 80px;  
+}
+
+address
+{
+    text-align: right; 
+    padding: 40px; 
+    color: #fce304;
+    font-size: large;
+    bottom: 10px; 
+    right: 20px;
+    position: absolute;
+}
+
+#buttonmain
+{
+    font-size: 35px;
+    font-family: 'Quattrocento', serif; 
+    border: 2px solid  #f5eb63; 
+    color: #031347; 
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px; 
+    cursor: pointer;
+    border-radius: 16px; /* For pill button */
+} 
+
+.center
+{
+    text-align: center;
+} 
+  

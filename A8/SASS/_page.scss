@@ -1,0 +1,99 @@
+.bodyBg
+{
+    background-color: $mainBg; 
+    background-repeat: no-repeat;    
+    background-position: center;   
+    background-blend-mode: luminosity;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+
+}
+// ----------------------------------------
+.logo
+{
+    width: 110px;
+    height: 20px;
+}
+
+.navi
+{
+    background-color: $mainBg;
+    opacity: 0.8;
+    top: 0;
+}
+
+.naviTextIcon
+{
+    border-radius: 50%; 
+    padding: 8px;
+    margin-right: 15px;
+    background-color: $myRed;
+}
+
+#naviText1
+{
+    background-color: $myGrey;
+}
+
+#naviText2
+{
+    background-color: $myRed;
+}
+// -----------------------------------
+.leftcol
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    align-content: center;
+}
+
+.leftShadow
+{
+    text-shadow: 0 0 3px #000000;
+}
+
+.leftBtn
+{
+    background-color: $myGrey;
+    border-radius: 25px;
+    color: $myWhite;    
+}
+
+.leftBtn:hover 
+{
+    color: #b30000;
+    text-decoration: none;   
+    cursor: pointer; 
+}
+// -----------------------------------------
+.rightForm
+{
+    background-color: $myGrey;
+    height: 480px;  
+}
+
+.rightTab
+{
+    width: 100%;
+}
+
+.rightPara
+{
+    color: $myGrey; 
+}
+
+.rightBtn
+{
+    background-color: $myRed;
+    border-radius: 25px;
+    color: $myWhite;    
+}
+
+.rightBtn:hover 
+{
+    color: $myWhite;
+    text-decoration: none;   
+    cursor: pointer;  
+}

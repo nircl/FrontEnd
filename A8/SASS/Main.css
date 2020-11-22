@@ -1,0 +1,135 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\000031}}
+.bodyBg {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: luminosity;
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000314}}
+.logo {
+  width: 110px;
+  height: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000320}}
+.navi {
+  background-color: black;
+  opacity: 0.8;
+  top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000327}}
+.naviTextIcon {
+  border-radius: 50%;
+  padding: 8px;
+  margin-right: 15px;
+  background-color: #F33F00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000335}}
+#naviText1 {
+  background-color: #313038; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000340}}
+#naviText2 {
+  background-color: #F33F00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000345}}
+.leftcol {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000352}}
+.leftShadow {
+  text-shadow: 0 0 3px #000000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000357}}
+.leftBtn {
+  background-color: #313038;
+  border-radius: 25px;
+  color: #ebe7e7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000364}}
+.leftBtn:hover {
+  color: #b30000;
+  text-decoration: none;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000371}}
+.rightForm {
+  background-color: #313038;
+  height: 480px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000377}}
+.rightTab {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000382}}
+.rightPara {
+  color: #313038; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000387}}
+.rightBtn {
+  background-color: #F33F00;
+  border-radius: 25px;
+  color: #ebe7e7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_page\.scss}line{font-family:\0000394}}
+.rightBtn:hover {
+  color: #ebe7e7;
+  text-decoration: none;
+  cursor: pointer; }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_responsive\.scss}line{font-family:\000034}}
+  header {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_responsive\.scss}line{font-family:\000039}}
+  .logo {
+    max-width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_responsive\.scss}line{font-family:\0000317}}
+  .leftcol {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_responsive\.scss}line{font-family:\0000326}}
+  h1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_responsive\.scss}line{font-family:\0000333}}
+  .rightForm, .rightTab {
+    width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; } }
+@media screen and (max-width: 360px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_responsive\.scss}line{font-family:\0000347}}
+  .leftBtn {
+    font-size: 10px;
+    padding: 5px 15px;
+    background-color: #313038;
+    border-radius: 25px;
+    color: #ebe7e7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A8\/SASS\/_responsive\.scss}line{font-family:\0000356}}
+  .rightBtn {
+    font-size: 10px;
+    padding: 5px 15px;
+    background-color: #F33F00;
+    border-radius: 25px;
+    color: #ebe7e7; } }
+
+/*# sourceMappingURL=Main.css.map */

@@ -1,0 +1,223 @@
+*
+{
+    box-sizing: border-box;   
+}
+
+/* --------------HEADER------------------- */
+.mainHeader
+{ 
+    background-color: #282E3F;
+    padding: 10px 140px; 
+    width: 100%;  
+    flex-wrap: wrap;
+}
+
+.headarrange 
+{
+    padding: 10px 20px; 
+} 
+
+.mainHeader, .headarrange
+{       
+    display: inline-block; 
+    height: auto;
+    text-align: center;
+} 
+
+.headLinks
+{
+    color: white; 
+    text-decoration: none; 
+}
+ 
+.logo
+{
+    max-width: 250px;
+    height: 50px;  
+    padding: 0px 35px;  
+}
+
+/* ---------------ICONS-------------------- */
+.icons
+{
+    padding: 0px 5px;
+    margin: 5px 3px;
+}
+
+.icolor 
+{
+    color: #C18F59;
+}
+
+.ibleftbottom
+{
+    background-color: #C18F59;
+    border-radius: 60%;
+    float: left;
+    padding: 20px;
+    margin: 20px 20px 20px 35px; 
+}
+
+.ibrightbottom
+{
+    background-color: #161A23;
+    border-radius: 60%; 
+    float: right;
+    padding: 20px; 
+    margin: 20px 35px 20px 20px; 
+}
+
+.h_title
+{
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+    display: inline-block;
+    margin: 0px;
+}
+
+.h_subtitles
+{
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin: 0px;
+}
+
+/* ----------------NAVIGATOR------------------ */
+.mainNav
+{
+    padding: 0px 160px; 
+    background-color: #333A4D; 
+    width: 100%;
+}
+
+.listNav
+{ 
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;  
+    margin: #333A4D;   
+} 
+
+.listItem
+{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder; 
+    font-size: 15px;
+}
+
+.listItem a  
+{
+    display: inline-block;
+    margin: auto;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;    
+}
+
+.listItem :hover
+{    
+    border-bottom: 3px solid #C18F59; 
+}
+
+/* -------------------------------------------- */
+.txtcolor 
+{
+    color: white; 
+}
+
+.center
+{
+    padding: 80px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center; 
+}
+
+/* ----------------------BODY-------------------- */
+.mainBody
+{
+    background-color: #1C202C; 
+}
+
+.b_head
+{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 135px;
+    font-weight: 100;  
+    margin: 0px; 
+}
+
+.b_para
+{
+    font-family: 'Roboto', sans-serif; 
+    padding: 10px;
+    margin: 0px;
+}
+
+.b_bottom
+{
+    padding: 60px 10px;  
+}
+
+/*------------------- buttons ----------------*/
+.b_button, .n_button
+{
+    background-color: #C18F59;
+    border-radius: 10px;
+    text-decoration: none;   
+}
+
+.b_button
+{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bolder; 
+    margin: 25px;
+    padding: 15px 35px; 
+}
+
+.n_button
+{
+    float: right;  
+    padding: 10px 35px; 
+    margin: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;   
+} 
+
+/* -------------Responsive Properties--------------- */ 
+
+@media all and (max-width: 575px)
+{
+    .mainHeader, .headarrange
+    {
+        display: block;
+        max-width: auto;
+        height: auto; 
+    } 
+
+    .mainNav
+    {
+        background-color: #333A4D;
+        text-align: center;
+        display: block;
+        width: auto;
+        height: auto; 
+    }
+
+    .b_head
+    {
+        font-size: 75px; 
+    }
+}
+
+
+
+
+
+
+

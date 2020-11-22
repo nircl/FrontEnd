@@ -1,0 +1,76 @@
+.mainff {
+  text-align: center;
+  font-family: 'Roboto Slab', serif; }
+
+.mainBg {
+  text-align: center; }
+
+.frame {
+  text-align: center; }
+
+.fg {
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 2px 2px 8px #000000; }
+
+.mainff {
+  padding: 15px 0px; }
+
+.mainBg {
+  background-color: #E5E5E5; }
+
+.frame {
+  margin: 80px 15px 10px 15px;
+  background-color: #ffffff;
+  max-width: 320px;
+  height: 525px;
+  display: inline-block;
+  box-shadow: 0px 8px 16px 0px grey; }
+
+.snap {
+  margin-top: -10%;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 8px 16px 0px grey; }
+
+.bg {
+  position: relative; }
+
+.fg {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  color: #ffffff; }
+
+.subff {
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; }
+
+.desig1 {
+  color: #ff0000; }
+
+.desig2 {
+  color: #35a501; }
+
+.desig3 {
+  color: #00aeff; }
+
+.desigDis {
+  padding: 0px 20px;
+  font-family: 'Roboto', sans-serif;
+  width: fit-content;
+  font-weight: 400; }
+
+i {
+  padding: 15px; }
+
+.icon1 {
+  color: #1DA1F2; }
+
+.icon2 {
+  color: #ea4c89; }
+
+.icon3 {
+  color: #0144fd; }
+
+/*# sourceMappingURL=Assign-5.css.map */

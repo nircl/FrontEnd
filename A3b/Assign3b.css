@@ -1,0 +1,153 @@
+*
+{ 
+    background: #0FE0BA no-repeat fixed center; /*Shorthand Property*/
+    background-size: cover;   
+}  
+/* -----------------------Navigation------------------ */
+.header
+{
+    padding:10px;
+}
+.logo
+{
+    width: 80px;
+    height: 35px; 
+    margin: 11px 0px;   
+}
+.listNav 
+{
+    font-size: 15px; 
+    font-family: sans-serif; 
+    list-style-type: none;
+    margin-left: 28%;
+    margin-right: 28%;
+    display: inline-block; 
+    padding: 2px;
+}
+.listItem  
+{
+    font-weight: bolder;
+    float: left;
+    padding: 0px 10px; 
+    text-align: center;
+}
+.listItem a
+{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+.listItem a:hover:not(.active)
+{
+    opacity: 1;
+}   
+        
+/* --------------Page Division---------------- */
+.column
+{
+    float: left;
+    width: 50%;
+}
+.row:before
+{
+    content: ""; /* to Clear floats after the columns */
+    display: table;
+    clear: both;
+}
+
+/* ----------------------Left Division-------------------     */
+.colL
+{
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    margin: 40px 30px 10px 30px; 
+    text-align: left; 
+}
+.vAlign
+{
+    display: inline-block;
+    margin: auto;
+}
+.snap
+{
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.paraone
+{
+    font-size: 15px; 
+    margin: 10px 10px 75px 10px;  
+}
+
+/* -----------------------Right Division----------------- */
+.colR 
+{
+    float: left;
+    font-size: 25px;
+    line-height: 50px;  
+    font-family: 'Raleway', sans-serif;
+    margin: 40px 30px 10px 30px;  
+} 
+.paratwo
+{
+    font-size: 18px;
+    margin: 25px 0px;
+    padding: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.butticon
+{
+    background-color: #2D403B;
+    text-decoration: none;
+    font-size: 20px;
+    border: 20px;
+    margin: 0px 25px;
+    padding: 15px 45px; 
+    font-family: 'Open Sans', sans-serif;
+} 
+.butticon:hover:not(.active)
+{
+    opacity: 0.6;
+}  
+
+/* ----------------------------------------------- */
+.head1, .butticon, .paratwo, .colR, .colL
+{
+    color: white;
+}
+
+.left
+{
+    text-align: left;    
+} 
+
+/* ------------------Resposive Styles------------------- */
+@media screen and (max-width: 600px) 
+{
+    .column 
+    {
+        width: 100%;
+    }
+
+    .colR 
+    {
+        font-size: 15px;
+        text-align: center;
+    }
+    .paratwo
+    {
+        font-size: 12px;
+        text-align: center;
+    }
+    .butticon
+    {
+        text-decoration: none;
+        font-size: 15px;
+        padding: 10px 25px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+}
