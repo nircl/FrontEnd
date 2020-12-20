@@ -1,0 +1,34 @@
+nav
+{
+    ul
+    {
+        li
+        {
+            .myLink
+            {
+                color: $myWhite;
+                font-size: small;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.myLink:hover
+{
+    color: $myYellow;
+}
+
+.donateLink
+{
+    color: $myWhite;
+    background-color: $myPink;
+    border-radius: 22px;
+    font-size: small;
+    font-weight: 300;
+}
+
+.donateLink:hover
+{
+    color: $myWhite;
+}

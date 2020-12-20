@@ -1,0 +1,41 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A9\/SASS\/_page\.scss}line{font-family:\000031}}
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A9\/SASS\/_page\.scss}line{font-family:\000037}}
+.contact {
+  background-color: #010B40;
+  color: #ece6e6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A9\/SASS\/_page\.scss}line{font-family:\0000313}}
+.form {
+  background-color: #12467B;
+  color: #ece6e6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A9\/SASS\/_page\.scss}line{font-family:\0000319}}
+.formTitle {
+  background-color: #f85858; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A9\/SASS\/_navigate\.scss}line{font-family:\000037}}
+nav ul li .myLink {
+  color: #ece6e6;
+  font-size: small;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A9\/SASS\/_navigate\.scss}line{font-family:\0000317}}
+.myLink:hover {
+  color: #f1e317; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A9\/SASS\/_navigate\.scss}line{font-family:\0000322}}
+.donateLink {
+  color: #ece6e6;
+  background-color: #f85858;
+  border-radius: 22px;
+  font-size: small;
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Crush\%20IT\/Front\%20End\/Task\/A9\/SASS\/_navigate\.scss}line{font-family:\0000331}}
+.donateLink:hover {
+  color: #ece6e6; }
+
+/*# sourceMappingURL=Main.css.map */
