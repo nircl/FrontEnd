@@ -1,0 +1,33 @@
+*
+{
+    font-family: 'Varela Round', sans-serif;
+}
+// --------------------------------- header
+.subHead
+{
+    color: $myGrey;
+}
+// --------------------------------- main
+.myPara
+{
+    color: $myGrey;
+}
+
+li a
+{
+    background-color: $myBlue;
+    color: $myWhite;
+    
+}
+
+li a:hover
+{
+    background-color: $myBlue;
+    color: $myWhite;
+}
+
+li a:active
+{
+    background-color: $myBlue;
+    color: $myWhite;
+}
