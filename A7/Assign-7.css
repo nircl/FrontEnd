@@ -1,0 +1,42 @@
+.bgImage
+{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.bgContent
+{
+    position: relative;
+}
+
+.bgContentIcon
+{
+    background-color: #3BD99F;
+}
+
+.fgIcon
+{
+    color: rgb(110, 107, 107);
+}
+
+.bgCard  
+{
+    background-color: #BAF7F8 !important;
+    width: 30% !important;
+}
+
+.cButton
+{
+    width: max-content;
+    padding: 15px 35px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    float: left;  
+    border: none;
+}
+
+
+
+
