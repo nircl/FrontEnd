@@ -1,0 +1,180 @@
+.bodytitle 
+{
+    color: $myTitle;
+}
+
+//------------------nav in carousel 
+.nav-main
+{
+    background-color: $myTitle;
+}
+
+// -----------------dropdown
+ 
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+    color: $myWhite; 
+    background-color: $myTitle; 
+}
+  
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: $myWhite;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover 
+{
+    background-color: $myButton;
+    text-decoration: none;
+}
+  
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+  
+.dropdown:hover
+{
+    background-color: $mylightTitle;
+    color: $myWhite;
+}
+
+.link-btn
+{
+    background-color: $myTitle;
+    color: $myWhite;
+    text-decoration: none;
+}
+
+.link-btn:hover
+{
+    background-color: $mylightTitle;
+    color: $myWhite;    
+}
+//   -----------------------
+
+.centered 
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.centered-bodyIV
+{
+    position: relative;
+    top: 20%;
+    left: 50%;
+}
+
+.body0btn, .bodyIbtn
+{
+    background-color: $myButton;
+    text-decoration: none;
+    color: $myWhite;
+    padding: 5px 10px;
+}
+
+.body0btn:hover, .bodyIbtn:hover
+{
+    background-color: $myTitle;
+    text-decoration: none;
+    color: $myWhite;
+    padding: 5px 10px;
+}
+
+.bodyIIimg
+{
+    max-width: 100%;
+    min-height: min-content;
+}
+
+.date
+{
+    color: $myWhite;
+    background-color: $mylightTitle;
+    padding: 2px;
+    max-width: max-content;
+}
+// -------------------------Customers Carousel
+.card
+{
+    background-color: transparent !important;
+}
+// -------------------------form 
+.myform 
+{
+    background-color: $myTitle;
+    color: $myWhite;
+}
+
+::placeholder 
+{
+    color: white;
+}
+
+.submitbtn
+{
+    background-color: $myButton;
+    color: $myWhite;
+}
+
+// -------------------------footer
+.contact
+{
+    background-color: $myYellow;
+}
+
+.contactIcon
+{
+    color: $myBlack
+}
+
+.contactIcon:hover
+{
+    color: $myTitle
+}
+
+ul .footnav
+{
+    color: $myTitle;
+    font-size: smaller;
+    border-right: 2px solid $myTitle;
+    padding: 2px 2px;
+}
+
+ul .footnavlast
+{
+    color: $myTitle;
+    font-size: smaller;
+    padding: 2px 2px;
+}
+
+.footbtn
+{
+    box-shadow: 1px 1px 8px, 0 0 8px black;
+}
+
+footer
+{
+    display: block;
+    left: 50%;
+    right: 50%;
+    text-decoration: none;
+    color: $myBlack;
+}
